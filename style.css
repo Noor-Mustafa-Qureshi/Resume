@@ -1,0 +1,200 @@
+#sidebar {
+  width: 15%;
+  height: 100vh;
+  background-color: rgb(189, 93, 56);
+}
+#sidebar a {
+  color: white;
+}
+.profile-pic {
+  width: 15vh;
+  height: 15vh;
+  display: block;
+  margin: 0px auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+hr {
+  width: 85%;
+  margin-left: 15%;
+}
+.active {
+  font-weight: bold !important;
+  background-color: transparent !important;
+}
+.row {
+  width: 85%;
+  margin-left: 15%;
+  height: 100vh;
+}
+/* About */
+.name {
+  font-weight: bold;
+}
+.lastname {
+  color: rgb(189, 93, 56);
+}
+.address {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.email {
+  color: rgb(189, 93, 56);
+}
+a:hover .email {
+  text-decoration: underline;
+}
+.info {
+  font-size: 1.5rem;
+  margin-right: 200px !important;
+}
+#about .social li {
+  width: 50px;
+  margin-left: 25px;
+}
+#about .social :first-child {
+  margin-left: 3px;
+}
+#about .social li img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Experience */
+#experience p {
+  font-size: 1.5rem;
+}
+
+/* Education */
+#education h3 {
+  font-family: 1.5rem;
+  font-weight: bold;
+}
+#education p {
+  font-family: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+  margin-top: 0.5rem !important;
+}
+
+/* Skills */
+#skills p {
+  font-size: 1.5rem;
+}
+#skills .tools li {
+  width: 40px;
+  margin-left: 10px;
+}
+#skills ul {
+  list-style: circle;
+}
+#skills ul li img {
+  width: 100%;
+}
+
+/* Interests */
+#interests p {
+  font-size: 1.2rem;
+  margin-right: 200px !important;
+}
+
+@media (max-width: 1300px) {
+  #sidebar {
+    width: 20%;
+  }
+  .profile-pic {
+    width: 20vh;
+    height: 20vh;
+  }
+  hr {
+    width: 80%;
+    margin-left: 20%;
+  }
+  .row {
+    width: 80%;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 1100px) {
+  #sidebar {
+    width: 25%;
+  }
+  hr {
+    width: 75%;
+    margin-left: 25%;
+  }
+  .row {
+    width: 75%;
+    margin-left: 25%;
+  }
+}
+@media (max-width: 992px) {
+  #sidebar {
+    width: 25%;
+  }
+  .profile-pic {
+    width: 15vh;
+    height: 15vh;
+  }
+  hr {
+    width: 75%;
+    margin-left: 25%;
+  }
+  .row {
+    width: 75%;
+    margin-left: 25%;
+  }
+  .info {
+    margin: 1rem 0px 0px 0px !important;
+    font-size: 1rem;
+  }
+  #interests p {
+    font-size: 1rem;
+    margin: 1rem 0px 0px 0px !important;
+  }
+  #experience p {
+    font-size: 1rem;
+    margin: 1rem 0px 0px 0px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  #sidebar {
+    width: 20%;
+  }
+  .profile-pic {
+    width: 10vh;
+    height: 10vh;
+  }
+  hr {
+    width: 80%;
+    margin-left: 20%;
+  }
+  .row {
+    width: 80%;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 667px) {
+  #sidebar {
+    display: none !important;
+  }
+  .navbar {
+    width: 100%;
+    display: block !important;
+    background-color: rgb(189, 93, 56);
+    color: white;
+  }
+  .navbar-toggler {
+    background-color: white;
+  }
+  hr {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .row {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
